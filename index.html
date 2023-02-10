@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Conversor de Moedas</h1>
+    <div id="converter">
+      <div>
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount">
+      </div>
+      <div>
+        <label for="from">From:</label>
+        <select id="from">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </div>
+      <div>
+        <label for="to">To:</label>
+        <select id="to">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </div>
+      <div id="result">
+        <p>Result: <span id="convertedAmount"></span></p>
+      </div>
+      <button id="convert">Convert</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
