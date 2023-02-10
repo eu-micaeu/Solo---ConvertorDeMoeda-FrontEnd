@@ -1,65 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #19348a;
-  }
-  
-  #converter {
-    width: 500px;
-    margin: 50px auto;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 40px;
-    border-radius: 10px;
-  }
-  
-  #converter div {
-    margin: 20px 0;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input[type="text"] {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid gray;
-    font-size: 18px;
-  }
-  
-  select {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid gray;
-    font-size: 18px;
-    background-color: white;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  button:hover {
-    background-color: #3e8e41;
-  }
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  background: linear-gradient(to right, #3fc59b, #29a8a7);
+}
+
+#converter {
+  max-width: 500px;
+  margin: 25px auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 40px;
+  border-radius: 10px;
+  border: 3px solid;
+}
+
+#converter div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 60%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}

@@ -1,7 +1,7 @@
 const conversionRates = {
     USD: 1,
     EUR: 1.19,
-    GBP: 1.37
+    BRL: 5
   };
   
   const convert = () => {
